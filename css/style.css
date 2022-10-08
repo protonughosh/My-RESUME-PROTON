@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: #420e0b;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin:0;
+    line-height: 1;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+nav {
+    background: #eb9683;
+    padding:1.6rem 0;
+}
+
+nav .inner{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+nav .inner .logo{
+    text-transform: uppercase;
+    color: #42180f;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 500;
+
+}
+nav .inner .logo i {
+    color: #4d79f6;
+}
+
+nav .inner button{
+    background: #995242;
+    border: none;
+    padding: 0.6rem 1rem;
+    color: #eff2f9;
+    font-size: 14px;
+    border-radius: 4px;
+    
+}
+section.profile {
+    background: #060b1b;
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+    margin-top: 60px;
+    clip-path: polygon(0 0,100% 0,100% 80%, 25% 100%, 0 80%);
+    padding-bottom: 5rem;
+}
+section.profile .left{
+    flex: 2;
+    display: flex;
+    align-items: center;
+}
+section .profile .right{
+    flex: 1;
+}
+section.profile .left  h2 {
+    color: #ed7e7e;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+section.profile .left p{
+    color: #ed7e7e;
+    font-size: 14px;
+}
+section.profile .left img {
+    width: 129px;
+    height: 129px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+section.profile .right ul.contact {
+    list-style-type: none;
+    margin-bottom: 1.6rem;
+
+}
+section.profile .right ul.contact li {
+    color: #848db3;
+    margin-bottom: 0.7rem;
+    font-size: 14px;
+
+}
+
+.Section-heading {
+    font-size: 15px;
+    font-weight: 500;
+    color: #eff2f9;
+    margin-bottom: 3rem;
+}
+
+section {
+    padding: 3rem;
+
+}
+main {
+    background: #1a253f;
+
+}
+section.About .content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16rem;
+}
+section.About .content h2 {
+    color: #ed7e7e;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    margin-bottom: 1.6rem;
+
+}
+section.About .content p {
+    color: #eb9683;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 700;
+    margin-bottom: 1.6rem;
+}
+section.About .content .left button{
+    background: #eb9683;
+    color: #1a253f;
+    padding: 4px 8px;
+    font-size: 12px;
+}
